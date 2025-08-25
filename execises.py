@@ -147,13 +147,15 @@ weather_advice()
 #
 def fizz_buzz():
     # Your loop and condition logic goes here
-    for i in range(1,50):
+    for i in range(1,51):
         if i%3 ==0 and not i%5 ==0:
             print(f'{i} Fizz')
         elif i%5 ==0 and not i%3==0:
             print(f'{i} Buzz')
         elif i%5== 0 and i%3 ==0:
             print(f'{i} FizzBuzz')
+        else:
+            print(i)
 
 # Call the function
 fizz_buzz()
